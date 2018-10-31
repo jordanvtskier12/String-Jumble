@@ -26,12 +26,13 @@ handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 jumb=input("Please enter a string of text (the bigger the better): ")
-
 print('You entered '  + jumb + '. Now jumble it: ')
 
 print(jumb[::-1])
 
 words = jumb.split() 
-
 print(' '.join(words[::-1]))
 
+last=(jumb[::-1])
+wordlast = last.split()
+print(' '.join(wordlast[::-1]))
