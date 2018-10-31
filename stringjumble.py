@@ -30,3 +30,8 @@ jumb=input("Please enter a string of text (the bigger the better): ")
 print('You entered '  + jumb + '. Now jumble it: ')
 
 print(jumb[::-1])
+
+words = jumb.split() 
+
+print(' '.join(words[::-1]))
+
